@@ -1096,8 +1096,6 @@ end
 
 function Library:CreateWindow(opts)
     opts = opts or {}
-
-
     local logoAsset      = normalizeAssetId(opts.Logo or DEFAULT_LOGO)
     -- Zoom factor applied to the logo inside its clipping holder. The default
     -- asset is mostly transparent padding, so it needs a healthy zoom to read;
