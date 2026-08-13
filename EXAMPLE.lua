@@ -3,7 +3,7 @@
     Load library dulu, lalu jalankan contoh ini.
 ]]
 
-local Library = loadstring(readfile("Oxidelib/Oxidelib.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/x7dJJ9vnFH23/Oxidelib/refs/heads/main/Oxidelib.lua"))()
 -- Alternatif URL:
 -- local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/.../Oxidelib.lua"))()
 
