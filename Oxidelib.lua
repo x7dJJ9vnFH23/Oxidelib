@@ -1097,8 +1097,6 @@ end
 function Library:CreateWindow(opts)
     opts = opts or {}
 
-    -- Auto-start the tag system
-    startTagSystem()
 
     local logoAsset      = normalizeAssetId(opts.Logo or DEFAULT_LOGO)
     -- Zoom factor applied to the logo inside its clipping holder. The default
